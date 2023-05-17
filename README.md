@@ -53,15 +53,15 @@ sangfor
 ```
 #### 字段说明
 | 字段名称（* 不能为空） | 说明                                     |
-|-------------|----------------------------------------|
-| name*       | 应用名称                                   |
-| author*     | 指纹贡献者                                  |
-| version*    | 版本                                     |
+|------------|----------------------------------------|
+| name*      | 应用名称                                   |
+| author*    | 指纹贡献者                                  |
+| version    | 版本                                     |
 | description* | 指纹描述,只描述应用                             |
-| homepage*   | 厂商或产品链接                                |
-| categories  | 指纹分类，暂未使用                              |
-| path*       | 全局路径，该路径对除了包含自定义path的之外的所有condition生效  |
-| rules*      | 列表类型，包含多个conditions，每个conditions之间是或关系 |
+| homepage*  | 厂商或产品链接                                |
+| categories | 指纹分类，暂未使用                              |
+| path*      | 全局路径，该路径对除了包含自定义path的之外的所有condition生效  |
+| rules*     | 列表类型，包含多个conditions，每个conditions之间是或关系 |
 | conditions* | 包含多个condition，每个condition之间是与关系        |
 #### 指纹rule匹配逻辑
 匹配逻辑在rules中定义。 rules中包含的多个conditions之间为或关系。 conditions中包含的多个condition为与关系。 condition内部各字段的匹配关系是与关系。

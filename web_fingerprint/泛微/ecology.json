@@ -1,0 +1,26 @@
+{
+ "name": "ecology",
+ "author": "360漏洞云",
+ "version": "*",
+ "description": "泛微e-cology依托全新的设计理念,全新的管理思想，标准化产品+个性化开发，是一套兼具企业信息门户、知识管理、数据中心、工作流管理、人力资源管理、客户与合作伙伴管理、项目管理、财务管理、资产管理功能的协同商务平台。",
+ "homepage": "http://www.weaver.com.cn/",
+ "categories": [],
+ "path": [""],
+ "rules": [
+  {
+   "conditions": [
+    {
+     "path": "/favicon.ico",
+     "md5": ["41eca7a9245394106a09b2534d8030df"]
+    }
+   ],
+   "conditions": [
+    {
+     "path": "",
+     "search": "headers",
+     "text": "ecology_JSessionId"
+    }
+   ]
+  }
+ ]
+}
