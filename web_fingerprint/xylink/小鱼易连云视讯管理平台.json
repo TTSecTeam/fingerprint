@@ -1,0 +1,29 @@
+{
+    "name": "小鱼易连云视讯管理平台",
+    "author": "360漏洞云",
+    "version": "",
+    "description": "小鱼易连是一款视频会议软件，也是通话软件，已升级为“高安全·超融合·全连接”云视频软件,专为党政军央企等大型组织和企业提供超融合云视频会议、远程会议系统，全国密算法，端到端加密，全面助力企业和政府数字化转型。",
+    "homepage": "https://www.xylink.com/",
+    "categories": [],
+    "path": [],
+    "rules": [
+      {
+        "conditions": [
+          {
+			"path":"/console/made/logo",
+            "search": "body",
+            "text": "小鱼易连"
+          }
+        ]
+      },
+	  {
+	    "conditions": [
+		  {
+            "path":"/console/made/logo",
+            "search": "body",
+            "text": "yijulink.com"
+          }
+	    ]
+	  }
+    ]
+  }

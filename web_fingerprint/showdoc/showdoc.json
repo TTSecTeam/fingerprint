@@ -1,0 +1,23 @@
+{
+    "name": "showdoc",
+    "author": "360漏洞云",
+    "version": "",
+    "description": "ShowDoc一个非常适合IT团队的在线API文档、技术文档工具。你可以使用Showdoc来编写在线API文档、技术文档、数据字典、在线手册",
+    "homepage": "https://www.showdoc.com.cn/",
+    "categories": [],
+    "path": [],
+    "rules": [
+      {
+        "conditions": [
+		  {
+            "search": "body",
+            "text": "/showdoc/server/index.php"
+          },
+		  {
+            "search": "title",
+            "text": "ShowDoc"
+          }
+        ]
+      }
+    ]
+  }
