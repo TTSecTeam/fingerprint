@@ -1,0 +1,35 @@
+{
+    "name": "Zyxel-nwa1100-nh",
+    "author": "360漏洞云",
+    "version": "<2.12",
+    "description": "ZyXEL NWA1100是一款具有四合一设计的无线网络接入设备，其四种工作模式包括：AP模式，中继模式，桥接模式和客户端模式。NWA1100可以为WLAN的部署提供最大的弹性空间，例如，通过WDS网桥功能，用户可以将几个节点通过无线信号连接起来，组成一个局域网。",
+    "homepage": "https://www.zyxel.com/homepage.shtml",
+    "categories": [],
+    "path": [],
+    "rules": [
+      {
+        "conditions": [
+		  {
+            "search": "title",
+            "text": "[nwa1100-nh]"
+          },
+		  {
+            "search": "body",
+            "text": "NWA1100-NH"
+          }
+        ]
+      },
+	  {
+        "conditions": [
+		  {
+            "search": "title",
+            "text": "[ZyXEL NWA1100-NH]"
+          },
+		  {
+            "search": "body",
+            "text": "NWA1100-NH"
+          }
+        ]
+      }
+    ]
+  }

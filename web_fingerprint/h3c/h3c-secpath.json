@@ -1,0 +1,33 @@
+{
+ "name": "H3C-SecPath-运维审计系统",
+ "author": "360漏洞云",
+ "version": "< ESS 6104P04",
+ "description": "H3C-SecPath-运维审计系统是基于用户现阶段面临的运维难题提出的一款运维风险管控产品。借助身份认证、权限控制、操作审计等功能，从操作层面解决了企业现存的 IT内控与管理问题，使运维操作管理进入安全与便利相结合的阶段，帮助客户提高整体运维安全水平，使运维操作管理过程变得更加简单、安全、有效。",
+ "homepage": "https://www.h3c.com/cn/",
+ "categories": [],
+ "path": [
+  "/"
+ ],
+ "rules": [
+  {
+   "conditions": [
+    {
+     "path": "/resources/themes/images/logo-login.png",
+     "md5": ["72ecc521cc282e151b49c13dc7f67c4e"]
+    }
+   ],
+   "conditions": [
+    {
+     "path": "/",
+     "search": "body",
+     "text": "H3C SecPath 运维审计系统"
+    },
+    {
+     "path": "/",
+     "search": "body",
+     "text": "H3C Technologies"
+    }
+    ]
+  }
+ ]
+}

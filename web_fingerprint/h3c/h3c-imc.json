@@ -1,0 +1,36 @@
+{
+ "name": "h3c-imc",
+ "author": "360漏洞云",
+ "version": "<= 2021",
+ "description": "iMC智能管理中心是H3C推出的下一代业务智能管理产品。它以业务管理和业务流程模型为核心，采用面向服务（SOA）的设计思想，为客户提供网络业务、资源和用户的融合管理解决方案，帮助客户实现网络业务的端到端管理；同时以全开放的、组件化的架构原型，向平台及其承载业务提供分布式、分级式交互管理特性；并为业务软件的下一代产品提供最可靠的、可扩展的、高性能的业务平台。",
+ "homepage": "https://www.h3c.com/cn/",
+ "categories": [],
+ "path": [
+  "/"
+ ],
+ "rules": [
+  {
+   "conditions": [
+		{
+		 "path": "/imc/login.jsf",
+		 "search": "body",
+		 "text": "loginForm:imcTopLogoImg"
+		}
+	],
+	"conditions": [
+		{
+		 "path": "/imc/login.jsf",
+		 "search": "body",
+		 "text": "imc_ui_log_box_bottom"
+		}
+	],
+	"conditions": [
+		{
+		 "path": "/imc/login.jsf",
+		 "search": "body",
+		 "text": "primefaces-imc-new-webui"
+		}
+   ]
+  }
+ ]
+}

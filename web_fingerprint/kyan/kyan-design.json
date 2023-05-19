@@ -1,0 +1,32 @@
+{
+ "name": "kyan网络设备",
+ "author": "360漏洞云",
+ "version": "*",
+ "description": "Kyan是一款网络监控设备。",
+ "homepage": "https://kyan.com/",
+ "categories": [],
+ "path": [
+  "/"
+ ],
+ "rules": [
+  {
+   "conditions": [
+    {
+     "path": "/login.php",
+     "search": "body",
+     "text": "www.kyanmedia.com"
+    },
+    {
+     "path": "/login.php",
+     "search": "body",
+     "text": "bluesky_education_login"
+    },
+    {
+     "path": "/login.php",
+     "search": "title",
+     "text": "platform - Login"
+    }
+   ]
+  }
+ ]
+}
