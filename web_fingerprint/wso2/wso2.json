@@ -1,0 +1,34 @@
+{
+ "name": "wso2",
+ "author": "360漏洞云",
+ "version": "<= 5.6.0",
+ "description": "wso2是一个领先的开源SOA解决方案提供者。其提供了SOA相关的各种基础设施、技术框架和相关工具，流程server，appserver等等，并且都是Apache 2.0开源协议的。某些WSO2产品允许不受限制的文件上传，从而远程执行代码。攻击者必须使用带有Content-Disposition目录遍历序列的/fileupload端点到达web根目录下的目录，例如../../../../repository/deployment/server/webapps目录中。该漏洞是一种未经身份验证的无限制任意文件上传，允许未经身份验证的攻击者通过上传恶意JSP文件在WSO2服务器上获得 RCE",
+ "homepage": "https://wso2.com/",
+ "categories": [],
+ "path": [
+  "/"
+ ],
+ "rules": [
+  {
+   "conditions": [
+    {
+     "path": "/carbon/admin/login.jsp",
+     "search": "headers",
+     "text": "WSO2 Carbon Server"
+    }
+   ],
+   "conditions": [
+    {
+     "path": "/carbon/admin/login.jsp",
+     "search": "title",
+     "text": "WSO2 Management Console"
+    },
+    {
+     "path": "/carbon/admin/login.jsp",
+     "search": "body",
+     "text": "docs.wso2.com"
+    }
+   ]
+  }
+ ]
+}
