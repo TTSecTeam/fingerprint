@@ -1,0 +1,43 @@
+{
+    "name": "TDXK-通达OA",
+    "author": "360漏洞云",
+    "version": "",
+    "description": "通达OA（Office Anywhere网络智能办公系统）是由北京通达信科科技有限公司自主研发的协同办公自动化软件，是与中国企业管理实践相结合形成的综合管理办公平台",
+    "homepage": "https://www.tongda2000.com/",
+    "categories": [],
+    "path": [],
+    "rules": [
+      {
+        "conditions": [
+          {
+            "search": "body",
+            "text": "tongda2000.com"
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "search": "body",
+            "text": "class=\"tdxk\""
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "search": "title",
+            "text": "Office Anywhere"
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "search": "body",
+            "text": "javascript:document.form1.UNAME.focus()"
+          }
+        ]
+      }
+    ]
+  }

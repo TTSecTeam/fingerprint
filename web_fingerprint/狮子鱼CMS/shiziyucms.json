@@ -1,0 +1,35 @@
+{
+    "name": "shiziyucms",
+    "author": "360漏洞云",
+    "version": "",
+    "description": "狮子鱼社区团购系统是一个开源免费的程序,自带微信小程序端和thinkphp后端,是一款功能强大的社区团购系统。",
+    "homepage": "https://www.shiziyu.net/index.html",
+    "categories": [],
+    "path": [],
+    "rules": [
+      {
+        "conditions": [
+		  {
+            "search": "body",
+            "text": "/Themes/Seller/Public/css/ace.min.css"
+          }
+        ]
+      },
+	  {
+        "conditions": [
+		  {
+            "search": "title",
+            "text": "登录 - 商家管理系统"
+          }
+        ]
+      },
+	  {
+        "conditions": [
+		  {
+            "search": "headers",
+            "text": "x-powered-by: oscshop"
+          }
+        ]
+      }
+    ]
+  }

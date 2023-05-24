@@ -1,0 +1,31 @@
+{
+    "name": "HiBOS酒店宽带运营系统",
+    "author": "360漏洞云",
+    "version": "",
+    "description": "HiBOS酒店宽带运营系统隶属于安美世纪（北京）科技有限公司开发的一套酒店宽带管理系统。",
+    "homepage": "http://www.amttgroup.com/",
+    "categories": [],
+    "path": [],
+    "rules": [
+      {
+        "conditions": [
+		  {
+            "search": "body",
+            "text": "http://www.amttgroup.com/"
+          },
+		  {
+            "search": "body",
+            "text": "/images/amtt_logo.gif"
+          }
+        ]
+      },
+	  {
+        "conditions": [
+		  {
+            "path": "/favicon.ico",
+            "md5": ["af545cc70432a9945c33314e9b6546e7"]
+          }
+        ]
+      }
+    ]
+  }
