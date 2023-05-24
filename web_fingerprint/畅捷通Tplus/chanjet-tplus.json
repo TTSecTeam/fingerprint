@@ -1,0 +1,45 @@
+{
+ "name": "畅捷通Tplus",
+ "author": "360漏洞云",
+ "version": "<= 17.0",
+ "description": "畅捷通信息技术股份有限公司（以下简称畅捷通公司）是用友集团成员企业。畅捷通T+软件是畅捷通公司开发的ERP管理软件，采用B/S结构及NET开发技术，面向中小型工贸和商贸企业提供财务管理、采购管理、库存管理等业务功能，其产品目前有单机、公有云和云主机三种售卖形态。",
+ "homepage": "https://www.chanjet.com/",
+ "categories": [],
+ "path": [
+  "/"
+ ],
+ "rules": [
+  {
+   "conditions": [
+    {
+     "path": "/favicon.ico",
+     "md5": ["934ca9005945fdbbc9804f6980c1a067"]
+    }
+   ],
+   "conditions": [
+    {
+     "path": "/tplus/view/login.html",
+     "search": "title",
+     "text": "畅捷通 T+"
+    }
+   ],
+   "conditions": [
+    {
+     "path": "/tplus/view/login.html",
+     "search": "body",
+     "text": "tp.control.css.ashx"
+    },
+    {
+     "path": "/tplus/view/login.html",
+     "search": "body",
+     "text": "ticon-tplus"
+    },
+    {
+     "path": "/tplus/view/login.html",
+     "search": "body",
+     "text": "service.chanjet.com"
+    }
+   ]
+  }
+ ]
+}
